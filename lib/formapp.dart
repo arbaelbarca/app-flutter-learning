@@ -89,7 +89,7 @@ class _FormPageState extends State<FormPage> {
                       onPressed: () {
                         Navigator.push(context, MaterialPageRoute(
                           builder: (context) {
-                            return DetailScreenActivity();
+                            return DetailScreenActivity("Haloo gesss");
                           },
                         ));
                       },
